@@ -1,0 +1,271 @@
+.aboutCompany {
+  width: 100%;
+  position: absolute;
+  top: 159px;
+}
+
+.topContainerAC {
+  display: flex;
+}
+
+.topContainerAC h3 {
+  position: absolute;
+  width: 627px;
+  height: 288px;
+  left: 120px;
+  top: 90px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
+
+.topContainerAC h3 > b {
+  color: #ff6d1c;
+}
+
+.topContainerAC div img {
+  position: absolute;
+  width: 491px;
+  height: 491px;
+  left: 690px;
+  top: 15px;
+}
+
+#img2AC {
+  position: absolute;
+  width: 572px;
+  height: 470px;
+  top: 50px;
+}
+
+.middleContainerAC {
+  display: flex;
+  position: absolute;
+  left: 120px;
+  top: 553px;
+  font-size: 16px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.middleContainerAC p {
+  width: 500px;
+}
+
+.middleContainerAC p:last-child {
+  position: absolute;
+  left: 520px;
+}
+
+.bottomContainerAC {
+  position: absolute;
+  left: 117px;
+  top: 786px;
+}
+
+.bottomContainerAC img {
+  width: 1070px;
+}
+
+.aboutCompany > img {
+  position: absolute;
+  width: 50px;
+  left: 35px;
+  top: 540px;
+}
+
+.aboutCompany > button {
+  box-sizing: border-box;
+
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+
+  position: absolute;
+  width: 108px;
+  height: 32px;
+  left: 1193px;
+  top: 385px;
+  background: #ffffff;
+  border: 1px solid #ff6d1c;
+  border-radius: 4px 4px 0px 0px;
+  transform: rotate(-90deg);
+
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #ff6d1c;
+}
+
+.aboutCompany > p {
+  position: absolute;
+  width: 530px;
+  height: 56px;
+  left: 355px;
+  top: -34px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #495057;
+}
+
+/* how does it work */
+
+.howDoesItWork {
+  position: absolute;
+  top: -930px;
+  background: #2e367f;
+  width: 100%;
+  height: 508px;
+}
+
+/* our clients */
+
+#ourClientsCompany{
+  top: 1650px;
+}
+
+/* our team */
+
+.ourTeam {
+  position: absolute;
+  top: 2000px;
+  left: 170px;
+  right: 170px;
+  align-self: center;
+}
+
+.ourTeam h3 {
+  position: absolute;
+  width: 715px;
+  height: 56px;
+  left: 100px;
+  right: 100px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
+
+.ourTeam h3 > b {
+  color: #ff6d1c;
+  font-weight: 700;
+}
+
+.topContainerOT {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.topContainerOT > div {
+  width: 310px;
+  height: 450px;
+  margin: 10px;
+}
+
+.topContainerOT > div div {
+  height: 310px;
+  background: #ff6d1c;
+  border-radius: 8px;
+}
+
+.topContainerOT h6 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 33px;
+  margin-left: 5px;
+  margin-top: 15px;
+  color: #000000;
+}
+
+.topContainerOT p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  margin-left: 5px;
+  margin-top: -15px;
+  color: #495057;
+}
+
+.topContainerOT img {
+  gap: 12px;
+  width: 81px;
+  height: 19px;
+  margin-left: 5px;
+  margin-top: -10px;
+}
+
+.bottomContainerOT {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottomContainerOT > div {
+  width: 310px;
+  height: 450px;
+  margin: 10px;
+}
+
+.bottomContainerOT > div div {
+  height: 310px;
+  background: #ff6d1c;
+  border-radius: 8px;
+}
+
+.bottomContainerOT h6 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 33px;
+  margin-left: 5px;
+  margin-top: 15px;
+  color: #000000;
+}
+
+.bottomContainerOT p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  margin-left: 5px;
+  margin-top: -15px;
+  color: #495057;
+}
+
+.bottomContainerOT img {
+  gap: 12px;
+  width: 81px;
+  height: 19px;
+  margin-left: 5px;
+  margin-top: -10px;
+}
+
+
+/* form section */
+
+.get-in-touch-form{
+  position: absolute;
+  top: 3250px;
+}
+
+.lady-pic{
+  top: 3085px;
+}
+
+/* footer */
+
+#footerCompany{
+  top: 3750px;
+}

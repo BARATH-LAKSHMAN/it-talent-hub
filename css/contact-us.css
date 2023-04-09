@@ -1,0 +1,295 @@
+#page-info {
+  position: absolute;
+  left: 555px;
+  top: 124px;
+  height: 56px;
+  width: 530px;
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #495057;
+}
+
+#enquire-now {
+  box-sizing: border-box;
+
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+
+  position: absolute;
+  width: 108px;
+  height: 32px;
+  left: 1193px;
+  top: 385px;
+  background: #ffffff;
+  border: 1px solid #ff6d1c;
+  border-radius: 4px 4px 0px 0px;
+  transform: rotate(-90deg);
+  z-index: 1;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #ff6d1c;
+}
+
+#whatsapp-hover {
+  position: absolute;
+  width: 50px;
+  left: 35px;
+  top: 540px;
+}
+
+#contact-us-form #rings {
+  position: absolute;
+  width: 494.29px;
+  height: 494.29px;
+  left: 106.35px;
+  top: 188.68px;
+}
+
+#contact-us-form #lady {
+  position: absolute;
+  width: 302px;
+  height: 508px;
+  left: 100px;
+  top: 180px;
+}
+
+#contact-us-form #title {
+  position: absolute;
+  width: 640px;
+  height: 82px;
+  left: 608px;
+  top: 234px;
+  font-family: "Space Grotesk";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.03em;
+  color: #ff6d1c;
+}
+
+#get-in-touch-form #name {
+  position: absolute;
+  top: 352px;
+  left: 608px;
+  box-sizing: border-box;
+  width: 264px;
+  height: 39px;
+  background: #ededed;
+  border: 0.5px solid #909090;
+  border-radius: 4px;
+  color: #000000;
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 39px;
+  padding-left: 16px;
+}
+
+#get-in-touch #name::placeholder {
+  color: #ffffff;
+}
+
+#get-in-touch-form #number {
+  position: absolute;
+  top: 353px;
+  left: 896px;
+  box-sizing: border-box;
+  width: 264px;
+  height: 39px;
+  background: #ededed;
+  border: 0.5px solid #909090;
+  border-radius: 4px;
+  color: #000000;
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 39px;
+  padding-left: 16px;
+}
+
+#get-in-touch #number::placeholder {
+  color: #ffffff;
+}
+
+#get-in-touch-form #email {
+  position: absolute;
+  top: 417px;
+  left: 609px;
+  box-sizing: border-box;
+  width: 264px;
+  height: 39px;
+  background: #ededed;
+  border: 0.5px solid #909090;
+  border-radius: 4px;
+  color: #000000;
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 39px;
+  padding-left: 16px;
+}
+
+#get-in-touch #email::placeholder {
+  color: #ffffff;
+}
+
+#get-in-touch-form #service {
+  position: absolute;
+  top: 418px;
+  left: 896px;
+  box-sizing: border-box;
+  width: 264px;
+  height: 39px;
+  background: #ededed;
+  border: 0.5px solid #909090;
+  border-radius: 4px;
+  color: #000000;
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 39px;
+  padding-left: 16px;
+}
+
+#get-in-touch-form #choose-course {
+  position: absolute;
+  top: 482px;
+  left: 608px;
+  box-sizing: border-box;
+  width: 264px;
+  height: 39px;
+  background: #ededed;
+  border: 0.5px solid #909090;
+  border-radius: 4px;
+  color: #000000;
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 39px;
+  padding-left: 16px;
+}
+
+#get-in-touch-form #choose-method {
+  position: absolute;
+  top: 483px;
+  left: 896px;
+  box-sizing: border-box;
+  width: 264px;
+  height: 39px;
+  background: #ededed;
+  border: 0.5px solid #909090;
+  border-radius: 4px;
+  color: #000000;
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 39px;
+  padding-left: 16px;
+}
+
+#get-in-touch-form #button {
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+  position: absolute;
+  width: 133px;
+  height: 39px;
+  left: 608px;
+  top: 560px;
+  background: #ff6d1c;
+  border: none;
+  border-radius: 4px;
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 39px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+}
+
+#address {
+  position: absolute;
+  width: 100%;
+  height: 296px;
+  left: 0px;
+  top: 688px;
+  background: #2e367f;
+  display: flex;
+  padding-left: 240px;
+}
+
+#address #rings2 {
+  position: absolute;
+  right: 0px;
+}
+
+#address > div {
+  margin-top: 50px;
+  padding: 40px;
+}
+
+#address h5 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 5px;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+#address p {
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+#contact-us-form > button {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    position: absolute;
+    width: 108px;
+    height: 32px;
+    left: 1193px;
+    top: 617px;
+    background: #ffffff;
+    border: 1px solid #ff6d1c;
+    border-radius: 4px 4px 0px 0px;
+    transform: rotate(-90deg);
+  
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+  
+    color: #ff6d1c;
+  }
+  
+  #img3 {
+    position: absolute;
+    width: 50px;
+    top: 660px;
+    left: 35px;
+    z-index: 1;
+  }
+
+#FC {
+    top: 1100px;
+}

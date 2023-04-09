@@ -1,0 +1,909 @@
+body{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#training-main #enq {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    position: absolute;
+    width: 108px;
+    height: 32px;
+    left: 1193px;
+    top: 385px;
+    background: #ffffff;
+    border: 1px solid #ff6d1c;
+    border-radius: 4px 4px 0px 0px;
+    transform: rotate(-90deg);
+    z-index: 1;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+  
+    color: #ff6d1c;
+  }
+  
+#training-main  #img3 {
+    position: absolute;
+    width: 50px;
+    left: 35px;
+    top: 540px;
+    z-index: 1;
+  }
+
+
+.FAQ {
+    position: absolute;
+    width: 100%;
+    height: 558px;
+    top: 4656px;
+    background: #ffece2;
+}
+  
+.containerFAQ {
+    margin-left: 130px;
+    margin-right: 130px;
+}
+  
+.containerFAQ h3 {
+    width: 851px;
+    height: 56px;
+    margin-top: 42px;
+    margin-bottom: 42px;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #ff6d1c;
+}
+  
+.containerFAQ > div {
+    display: flex;
+    justify-content: space-between;
+    height: 320px;
+}
+  
+.FAQ .accordion-item,
+.FAQ .accordion-header {
+    background-color: transparent !important;
+    border: none;
+}
+  
+.FAQ .accordion-btn {
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    width: 100%;
+    padding-left: 20px;
+    height: 80px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+  
+.FAQ .accordion-header {
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+  
+.FAQ .accordion-item {
+    width: 490px;
+}
+  
+  .FAQ .accordion-btn:after {
+    content: "\2212";
+    padding-left: 300px;
+  }
+  
+  .FAQ .accordion-btn:not(.collapsed) {
+    font-weight: 700;
+    color: #ff6d1c;
+  }
+  
+  .FAQ .accordion-btn:before {
+    content: "";
+  }
+  
+  .FAQ .accordion-btn.collapsed:after {
+    content: "\002B";
+  }
+  
+  .containerFAQ > button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    background-color: transparent;
+    position: absolute;
+    width: 88px;
+    height: 32px;
+    left: 586px;
+    top: 470px;
+    border: 1px solid #495057;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #495057;
+  }
+
+#formSectionCompany{
+    top: 5424px;
+}
+  
+  /* footer */
+  
+#footerCompany{
+    top: 6038px;
+}
+
+#page-info{
+    position: absolute;
+    width: 530px;
+    height: 56px;
+    left: 355px;
+    top: 124px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #495057;
+}
+
+#training-main{
+    position: absolute;
+    width: 100%;
+    height: 608px;
+    left: 0px;
+    top: 183px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#training-main #bg{
+    position: absolute;
+    filter: blur(3px);
+    width: 100%;
+    height: 608px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#training-main #rings-1{
+    position: absolute;
+    height: 537px;
+    left: -182px;
+    top: -122px;
+}
+
+#training-main #rings-2{
+    position: absolute;
+    height: 761px;
+    left: 658px;
+    top: -98px;
+}
+
+#training-main #form-training{
+    position: absolute;
+    width: 375px;
+    height: 417px;
+    left: 786px;
+    top: 96px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+#form-training #title{
+    position: absolute;
+    width: 310px;
+    height: 64px;
+    left: 33px;
+    top: 37px;
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+
+#form-training input{
+    padding: 8px 16px;
+    gap: 8px;
+    width: 310px;
+    height: 39px;
+    background: #EDEDED;
+    border-radius: 4px;
+    border: none;
+}
+
+#form-training #name{
+    position: absolute;
+    top: 130px;
+    left: 33px;
+}
+
+#form-training #contact{
+    position: absolute;
+    top: 193px;
+    left: 33px;
+}
+
+#form-training #email{
+    position: absolute;
+    top: 256px;
+    left: 33px;
+}
+
+#form-training #submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 8px 16px;
+    gap: 8px;
+    position: absolute;
+    width: 310px;
+    height: 40px;
+    left: 33px;
+    top: 319px;
+    background: #FF6D1C;
+    border-radius: 4px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+#form-training input::placeholder{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #495057;
+}
+
+#training-main-left #title{
+    position: absolute;
+    width: 640px;
+    height: 64px;
+    left: 90px;
+    top: 65px;
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 64px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+#training-main-left #duration{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    position: absolute;
+    width: 150px;
+    height: 32px;
+    left: 90px;
+    top: 129px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+#training-main-left #info{
+    position: absolute;
+    width: 606px;
+    height: 160px;
+    left: 90px;
+    top: 176px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+#training-main-left #divider{
+    position: absolute;
+    width: 641.5px;
+    height: 0px;
+    left: 90px;
+    top: 350px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    opacity: 0.5;
+}
+
+#training-main-left #eligibility{
+    position: absolute;
+    width: 403px;
+    height: 152px;
+    left: 90px;
+    top: 359px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+#eligibility ul{
+    font-weight: 400;
+}
+
+#what-you-will-learn #title{
+    position: absolute;
+    top: 840px;
+    left: 90px;
+    width: 492px;
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+
+#what-you-will-learn #para img{
+    margin-top: -15px;
+}
+
+#what-you-will-learn #para{
+    padding: 10px;
+    position: absolute;
+    top: 912px;
+    left: 90px;
+    border: 1px solid #909090;
+    border-radius: 8px;
+    width: 1080px;
+    height: 278px;
+}
+
+#what-you-will-learn #para p{
+    margin-left: 20px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    width: 478px;
+    height: 56px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#what-you-will-learn #para #pt1{
+    position: absolute;
+    left: 25px;
+    top: 60px;
+}
+
+#what-you-will-learn #para #pt2{
+    position: absolute;
+    left: 25px;
+    top: 136px;
+}
+
+#what-you-will-learn #para #pt3{
+    position: absolute;
+    left: 25px;
+    top: 206px;
+}
+
+#what-you-will-learn #para #pt4{
+    position: absolute;
+    left: 559px;
+    top: 60px;
+}
+
+#what-you-will-learn #para #pt5{
+    position: absolute;
+    left: 559px;
+    top: 136px;
+}
+
+#what-you-will-learn #para #pt6{
+    position: absolute;
+    left: 559px;
+    top: 206px;
+}
+
+#topics-covered{
+    position: absolute;
+    top: 1238px;
+    left: 90px;
+}
+
+#topics-covered #title{
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+
+#topics-covered #level-1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 18px;
+    position: absolute;
+    width: 510px;
+    height: 573px;
+    top: 74px;
+    background: #E2E5FF;
+    border-radius: 8px;
+}
+
+#topics-covered #level-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 18px;
+    position: absolute;
+    width: 510px;
+    height: 573px;
+    left: 570px;
+    top: 74px;
+    background: #E2E5FF;
+    border-radius: 8px;
+}
+
+#topics-covered #level{
+    position: absolute;
+    top: 16px;
+    left: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    width: 72px;
+    height: 24px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2E367F;
+}
+
+#topics-covered #heading{
+    position: absolute;
+    top: 40px;
+    left: 18px;
+    width: 474px;
+    height: 133px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #2E367F;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#topics-covered ul{
+    width: 350px;
+    height: 384px;
+    position: absolute;
+    top: 173px;
+    left: 18px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #000000;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#topics-covered #rings3{
+    position: absolute;
+    top: 394px;
+    left: -200px;
+}
+
+#top-jobs{
+    position: absolute;
+    top: 2003px;
+    left: 150px;
+}
+
+#top-jobs #heading{
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    width: 310px;
+    height: 112px;
+    background-color: transparent;
+    text-align: left;
+    position: absolute;
+    left: -20px;
+    top: 35px;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+
+
+/* why choose us */
+
+#why-choose-us {
+    position: absolute;
+    top: 2400px;
+    width: 100%;
+    height: 736px;
+    left: 0px;
+    background: #ffece2;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  #why-choose-us #background {
+    position: absolute;
+    right: 0px;
+    top: -20px;
+  }
+  
+  #why-choose-us #title {
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 8px;
+    position: absolute;
+    width: 148px;
+    height: 32px;
+    left: 120px;
+    top: 51px;
+    background: #ff6d1c;
+    border-radius: 4px;
+    font-family: "Work Sans";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  #why-choose-us #heading {
+    position: absolute;
+    width: 269px;
+    height: 112px;
+    left: 100px;
+    top: 92px;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: black;
+    text-align: left;
+  }
+  
+  #why-choose-us #topic {
+    font-family: "Space Grotesk";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: -20px;
+  }
+  
+  #why-choose-us #paragraph {
+    font-family: "Work Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #495057;
+    height: 65px;
+    overflow-wrap: break-word;
+  }
+  
+  #why-choose-us #d-1 {
+    position: absolute;
+    top: 254px;
+    left: 120px;
+    width: 310px;
+  }
+  
+  #why-choose-us #d-2 {
+    position: absolute;
+    top: 254px;
+    left: 505px;
+    width: 310px;
+  }
+  
+  #why-choose-us #d-3 {
+    position: absolute;
+    top: 254px;
+    left: 890px;
+    width: 310px;
+  }
+  
+  #why-choose-us #d-4 {
+    position: absolute;
+    top: 478px;
+    left: 120px;
+    width: 310px;
+  }
+  
+  #why-choose-us #d-5 {
+    position: absolute;
+    top: 478px;
+    left: 505px;
+    width: 310px;
+  }
+  
+  #why-choose-us #d-6 {
+    position: absolute;
+    top: 478px;
+    left: 890px;
+    width: 310px;
+  }
+
+#top-jobs #orange{
+    font-weight: 700;
+    color: #FF6D1C;
+    width: 310px;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+#top-jobs #title{
+    position: absolute;
+    top: 11px;
+    left: 16px;
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+
+#top-jobs #desc{
+    position: absolute;
+    left: 16px;
+    top: 65px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+}
+
+#top-jobs #job1{
+    position: absolute;
+    top: 157px;
+    width: 310px;
+    height: 116px;
+    border: 0.5px solid #909090;
+    border-radius: 8px;
+}
+
+#top-jobs #job2{
+    position: absolute;
+    top: 157px;
+    left: 330px;
+    width: 310px;
+    height: 116px;
+    border: 0.5px solid #909090;
+    border-radius: 8px;
+}
+
+#top-jobs #job3{
+    position: absolute;
+    top: 157px;
+    left: 660px;
+    width: 310px;
+    height: 116px;
+    border: 0.5px solid #909090;
+    border-radius: 8px;
+}
+
+/* job */
+
+.job {
+    position: absolute;
+    top: 3250px;
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+  
+  .bottomContainerJob img {
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  .topContainerJob {
+    display: flex;
+  }
+  
+  .topContainerJob h3 {
+    width: 291px;
+    height: 112px;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: black;
+    margin-top: -10px;
+    margin-right: 20px;
+  }
+  
+  .topContainerJob p {
+    width: 420px;
+    height: 96px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #000000;
+  }
+  
+  .topContainerJob b {
+    color: #ff6d1c;
+    font-weight: 700;
+  }
+
+  /* reviews */
+
+.reviewsTraining {
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    top: 3800px;
+  }
+  
+  .reviewsTraining > img{
+    height: inherit;
+    position: absolute;
+    right: 0px;
+    top: -100px;
+    z-index: -1;
+  }
+  
+  .reviewsTraining > p {
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 8px;
+  
+    position: absolute;
+    width: 132px;
+    height: 32px;
+    left: 120px;
+  
+    background: #ffece2;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #ff6d1c;
+  }
+  
+  .reviewsTraining > h3 {
+    position: absolute;
+    width: 376px;
+    height: 188px;
+    left: 120px;
+    top: 45px;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: black;
+  }
+  
+  .reviewsTraining > h3 > b{
+    color: #ff6d1c;
+    font-weight: 700;
+  }
+  
+  .containerRT {
+    display: flex;
+    left: 120px;
+    position: absolute;
+    top: 270px;
+  }
+  
+  .containerRT > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    margin: 10px;
+    width: 260px;
+    height: 386px;
+  
+    background: #ededed;
+  }
+  
+  .containerRT p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #000000;
+  }
+  
+  .containerRT b {
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #ff6d1c;
+  }
+
+  .get-in-touch-form{
+    position: absolute;
+    top: 5500px;
+  }
+
+  .lady-pic{
+    top: 5335px;
+  }
